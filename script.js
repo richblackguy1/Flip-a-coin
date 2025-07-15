@@ -17,7 +17,7 @@ function flipCoin() {
     // Mid-flip: toggle image and result
     for (let i = 0; i < 10; i++) {
         setTimeout(() => {
-            coin.src = isHeads ? '/heads.svg' : '/tails.svg';
+            coin.src = isHeads ? 'heads.svg' : 'tails.svg';
             isHeads = !isHeads; // Toggle for next iteration
         }, i * 100); // Adjust timing as needed
     }
